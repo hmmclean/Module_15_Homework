@@ -7,11 +7,6 @@ d3.json(queryUrl).then(function (data) {
   createFeatures(data.features);
 });
 
-// Create marker size based on magnitude of earthquake.
-function markerSize (magnitude) {
-  return magnitude * 10000;
-};
-
 // Create color of marker based on depth of earthquake.
 function chooseColor(depth) {
   switch(true) {
@@ -47,7 +42,7 @@ function createFeatures(earthquakeData) {
     onEachFeature: onEachFeature,
     pointToLayer: function(feature, latlng) {
       let markers = {
-        radius: markerSize(feature.properties.mag),
+        radius: feature.properties.mag * 10000,
         fillColor: chooseColor(feature.geometry.coordinates[2]),
         fillOpacity: 1,
         color: 'black',
