@@ -2,7 +2,7 @@
 Module 15 - Mapping
 
 # Overview
-Using the Belly Button Biodiversity dataset, an interactive dashboard was created to explore the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare. This dashboard has five elements, the first is the Test Subject ID No. dropdown which displays each test subject ID and changes the remaining charts based on selection, allowing users to explore the data at the click of a button. The remaining elements are four graphs, a demographic chart that details general characteristics such as gender, age, etc., a bar graph showing the top 10 OTUs per test subject, a bubble chart denoting the relative amount of OTUs present per individual, and finally a gauge displaying the washing frequency per week for each subject. 
+The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. In this challenge, you have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 # Navigation
 * StarterCode - provided starting material.
@@ -13,6 +13,4 @@ Using the Belly Button Biodiversity dataset, an interactive dashboard was create
 
 # References and Resources
 * ChatGPT - https://chat.openai.com/
-* Plotly documentation for gauge chart -
-     * https://plotly.com/javascript/reference/indicator/
-     * https://plotly.com/javascript/gauge-charts/
+* Open Street Map - https://www.openstreetmap.org/
